@@ -1,0 +1,11 @@
+name: 测试一下咯
+
+on: workflow_dispatch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Start SSH via tmate
+        uses: P3TERX/ssh2actions@main
